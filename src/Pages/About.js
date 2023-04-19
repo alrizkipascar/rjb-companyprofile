@@ -11,7 +11,7 @@ const About = ({ about }) => {
   return (
     <div
       ref={about}
-      className="w-full grid justify-items-center sm:h-screen flex-row text-white bg-cover bg-no-repeat bg-orange py-20"
+      className="w-full grid justify-items-center h-full flex-row text-white bg-cover bg-no-repeat bg-orange py-20"
     >
       <div 
       data-class-in="translate-y-0 opacity-1"
