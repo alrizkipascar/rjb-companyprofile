@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rjb-companyprofile/static/css/main.31f31df5.css",
-    "main.js": "/rjb-companyprofile/static/js/main.c0afe1ea.js",
+    "main.js": "/rjb-companyprofile/static/js/main.d5b70f9a.js",
     "static/js/787.b7af92ad.chunk.js": "/rjb-companyprofile/static/js/787.b7af92ad.chunk.js",
     "static/media/excavator.jpg": "/rjb-companyprofile/static/media/excavator.1dd6c5c2f1ff5a0b3609.jpg",
     "static/media/scissor-lift.jpeg": "/rjb-companyprofile/static/media/scissor-lift.40170a67708675dc1de4.jpeg",
@@ -21,11 +21,11 @@
     "static/media/logo.svg": "/rjb-companyprofile/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/rjb-companyprofile/index.html",
     "main.31f31df5.css.map": "/rjb-companyprofile/static/css/main.31f31df5.css.map",
-    "main.c0afe1ea.js.map": "/rjb-companyprofile/static/js/main.c0afe1ea.js.map",
+    "main.d5b70f9a.js.map": "/rjb-companyprofile/static/js/main.d5b70f9a.js.map",
     "787.b7af92ad.chunk.js.map": "/rjb-companyprofile/static/js/787.b7af92ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31f31df5.css",
-    "static/js/main.c0afe1ea.js"
+    "static/js/main.d5b70f9a.js"
   ]
 }
