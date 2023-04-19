@@ -10,15 +10,15 @@ const About = ({ about }) => {
   }, []);
   return (
     <div
-      ref={about}
-      className="w-full grid justify-items-center h-full flex-row text-white bg-cover bg-no-repeat bg-orange py-20"
+      
+      className="w-full h-full lg:h-screen grid justify-items-center  flex-row bg-cover bg-no-repeat bg-orange py-20"
     >
       <div 
       data-class-in="translate-y-0 opacity-1"
       data-class-out="translate-y-32 opacity-0"
-      className="translate-y-32 opacity-0 transition transform duration-1000 font-serif h-auto w-1/2 ">
+      className="translate-y-32 opacity-0 transition transform duration-1000 font-serif w-1/2">
         <h1 className="text-3xl text-black text-bold">Siapa PT.Raharja Jaya Bersama?</h1>
-      <p className="text-left  font-light leading-relaxed mt-0 mb-4 text-slate-700">
+      <p className="h-auto text-left  font-light leading-relaxed mt-0 mb-4 text-slate-700">
       Berbekal dari pengalaman untuk kemajuan
 perusahaan, PT.Raharja Jaya Bersama sejak pertama 
 kali berdiri hingga sekarang ini tetap berkarya dan 
@@ -37,7 +37,7 @@ equipment atau suku cadang lainnya.
 
 </p>
 <h1 className="text-3xl text-black text-bold">Pelayanan PT.Raharja Jaya Bersama</h1>
-<p className="text-left  font-light leading-relaxed mt-0 mb-4 text-slate-700">
+<p className="h-auto text-left  font-light leading-relaxed mt-0 mb-4 text-slate-700">
 Dalam persaingan pasar global dan perdagangan 
 bebas, telah mendorong PT. Raharja Jaya Bersama 
 tetap komitmen dalam memberikan pelayanan 
@@ -56,7 +56,7 @@ terus fokus memberikan pelayanan terbaik kepada
 para pelanggannya.
 </p>
 <h1 className="text-3xl text-black text-bold">Visi dan Misi</h1>
-<p className="text-left  font-light leading-relaxed mt-0 mb-4 text-slate-700">
+<p className="h-auto text-left  font-light leading-relaxed mt-0 mb-4 text-slate-700">
 Keamanan, kenyamanan serta kepuasan para 
 customer menjadi salah satu konsentrasi PT. Raharja 
 Jaya Bersama dalam memberikan produk-produk 
