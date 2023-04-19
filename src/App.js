@@ -18,7 +18,7 @@ function App() {
   
   
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/rjb-companyprofile'>
       <Routes>
         <Route path="/" element={<Nav />}>
         <Route index element={<Home />} />
