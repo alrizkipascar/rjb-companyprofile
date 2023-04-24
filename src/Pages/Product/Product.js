@@ -29,27 +29,7 @@ const Product = ({ data }) => {
     // });
   };
 
-  const CarouselData = [
-    {
-      text:"General Trading",
-    },
-    {
-      text:
-        "Supplier Sparepart Dump Truck ( Plantations & Mining )",
-    },
-    {
-      text:
-        "Fabrikasi / Custom Bucket Excavator STD – ATPM",
-    },
-    {
-      text:
-        "Supplier Filter-Filter Heavy Equipment",
-    },
-    {
-      text:
-        "Sub – Dist ( Germagic Disinfectant / Antiseptika )",
-    },
-  ];
+  
  return (
     <div
     

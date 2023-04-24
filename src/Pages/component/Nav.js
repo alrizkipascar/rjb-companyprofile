@@ -23,7 +23,7 @@ const Nav = ({ scrollToPage }) => {
  
   return (
     <>
-    <nav className="sticky top-0 flex justify-center z-50 w-full h-20 grid-cols-2 text-white flex bg-gray-900">
+    <nav className="top-0 flex justify-center z-50 w-full h-20 grid-cols-2 text-white flex bg-gray-900">
     
     <Link 
       to="/"

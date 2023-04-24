@@ -1,14 +1,11 @@
 import Cards from "./component/Cards";
 import image from "../Image/orange.jpg"
 import { useEffect, useRef } from "react";
-import Nav from "./component/Nav";
-import Contact from "./Contact";
-import Experience from "./Experience";
-import Skills from "./Skills";
-import Welcome from "./Home";
-import About from "./About";
+import ComponentTest from "./component/card-slide";
 import Animasection from "./component/animation";
 import CarouselFull from "./component/carousel-text";
+import homeImage from "../Pages/component/home-img/home-img"
+
 // import image from "../Image/background.jpg";
 const Home = ({ Welcome }) => {
   useEffect(() => {
@@ -16,7 +13,7 @@ const Home = ({ Welcome }) => {
       Animasection.observeAll();
     };
   }, []);
-
+  const homeData = homeImage;
   const CarouselData = [
     {
       text:"General Trading",
@@ -60,24 +57,42 @@ const Home = ({ Welcome }) => {
     ref={Welcome}
       className="overflow-y-hidden sm:h-screen w-full bg-cover bg-no-repeat bg-orange  border-b border-slate-700 items-center justify-center flex h-screen "
     >
+     
       <div
         data-class-in="translate-y-0 opacity-1"
         data-class-out="translate-y-32 opacity-0"
-        className="translate-y-32 opacity-0 transition transform duration-1000 w-full text-base font-light text-center font-sans leading-relaxed mt-0 mb-4"
+        className="translate-y-32 opacity-0 transition transform duration-1000 w-full text-base font-light text-center font-sans leading-relaxed "
       >
-      <CarouselFull data={CarouselData} />
+        <div className="grid grid-cols-2">
+        <ComponentTest
+                data={homeData[0]}
+                
+                
+                // showModal={showModal}
+                // setDataIndex={setDataIndex}
+                // setShowModal={setShowModal}
+              ></ComponentTest>
+              <ComponentTest
+                data={homeData[1]}
+                
+                
+                // showModal={showModal}
+                // setDataIndex={setDataIndex}
+                // setShowModal={setShowModal}
+              ></ComponentTest>
+              </div>
+        {/* {homeData.map((index, i) => {
+          return (
+            <>
+             
+            </>
+          );
+        })} */}
+      {/* <CarouselFull data={CarouselData} /> */}
 
-        {/* <p
-          className="text-black  text-4xl "
-        >
-          Welcome to my page
-        </p>
-        <h3
-          className="text-black"
-        >
-          My name is Alrizki Pasca Ramadhani
-        </h3> */}
       </div>
+      
+
     </div>
   );
 };
