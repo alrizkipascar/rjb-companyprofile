@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rjb-companyprofile/static/css/main.3f5904d0.css",
-    "main.js": "/rjb-companyprofile/static/js/main.f3f63178.js",
+    "main.js": "/rjb-companyprofile/static/js/main.5d7f8b35.js",
     "static/js/787.b7af92ad.chunk.js": "/rjb-companyprofile/static/js/787.b7af92ad.chunk.js",
     "static/media/construction.jpg": "/rjb-companyprofile/static/media/construction.a83ddddfd9302b9a8dd2.jpg",
     "static/media/excavator.jpg": "/rjb-companyprofile/static/media/excavator.1dd6c5c2f1ff5a0b3609.jpg",
@@ -23,11 +23,11 @@
     "static/media/logo.svg": "/rjb-companyprofile/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/rjb-companyprofile/index.html",
     "main.3f5904d0.css.map": "/rjb-companyprofile/static/css/main.3f5904d0.css.map",
-    "main.f3f63178.js.map": "/rjb-companyprofile/static/js/main.f3f63178.js.map",
+    "main.5d7f8b35.js.map": "/rjb-companyprofile/static/js/main.5d7f8b35.js.map",
     "787.b7af92ad.chunk.js.map": "/rjb-companyprofile/static/js/787.b7af92ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f5904d0.css",
-    "static/js/main.f3f63178.js"
+    "static/js/main.5d7f8b35.js"
   ]
 }
